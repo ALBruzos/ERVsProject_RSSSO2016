@@ -1,0 +1,8 @@
+
+#Creating a sequence of Ns of 6000 (6kb) nucleotides to build a fake reference for BTL
+/common/software/R-3.2.0/bin/R 
+for (i in 1:6000) cat("N")
+
+#Getting de LTRs (first line of this fasta file):
+nano /common/WORK/SCHOOL2016/Data/ERVs/refs/Common_Bov_ERV.fa
+
